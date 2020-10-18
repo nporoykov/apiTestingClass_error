@@ -20,7 +20,7 @@ public class CreateUserTest {
         Response response;
         User user;
 
-        String expectedEmail = "Test@mail.ru";
+        String expectedEmail = "1111@mail.ru";
         String actualType;
         String type = "unknown";
         String errorMessageType = "Incorrect userName";
@@ -33,9 +33,9 @@ public class CreateUserTest {
                 .email(expectedEmail)
                 .firstName("1111")
                 .id(id)
-                .lastName("LastName")
-                .password("Password")
-                .phone("8-920-920-23-23")
+                .lastName("1111")
+                .password("1111")
+                .phone("1111-1111-1111")
                 .username("1111")
                 .userStatus(10L)
                 .build();
@@ -61,7 +61,7 @@ public class CreateUserTest {
         Response response1;
         User user1;
 
-        String expectedEmail = "Test@mail.ru";
+        String expectedEmail = "2222@mail.ru";
         String actualType;
         String type = "unknown";
         String errorMessageType = "Incorrect userName";
@@ -74,9 +74,9 @@ public class CreateUserTest {
                 .email(expectedEmail)
                 .firstName("2222")
                 .id(id)
-                .lastName("LastName")
-                .password("Password")
-                .phone("8-920-920-23-23")
+                .lastName("2222")
+                .password("2222")
+                .phone("2222-2222-2222")
                 .username("2222")
                 .userStatus(10L)
                 .build();
